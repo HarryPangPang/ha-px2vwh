@@ -1,0 +1,25 @@
+{
+  "name": "@ha/px2vwh-loader",
+  "version": "1.0.0",
+  "description": "A tool for change px to vw/vh with media",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryzq/ha-px2vwh.git"
+  },
+  "keywords": [
+    "px",
+    "vh",
+    "vw",
+    "tranfor"
+  ],
+  "author": "1562055324@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harryzq/ha-px2vwh/issues"
+  },
+  "homepage": "https://github.com/harryzq/ha-px2vwh#readme"
+}
