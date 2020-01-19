@@ -16,12 +16,12 @@ module.exports = function (source) {
     // 正常屏幕
     pxvh = sources.replace(pxReg, function(match,m1,m2){
         var pxValue = parseFloat(m1.slice(0, m1.length - 2));
-        return ((pxValue / uiHeight) * 100).toFixed(decimal) +'vh;'
+        return ((pxValue / uiHeight) * 100).toFixed(decimal) +'vh'+m2
     })
     // 宽屏幕
     pxvhw = sources.replace(pxReg, function(match,m1,m2){
         var pxValue = parseFloat(m1.slice(0, m1.length - 2));
-        return ((pxValue / uiWidth) * 100).toFixed(decimal) +'vw;'
+        return ((pxValue / uiWidth) * 100).toFixed(decimal) +'vw'+m2
     })
     
     finalSource = pxvh+ '\n'+ '@media screen and (max-aspect-ratio: 16/9){'+'\n' + pxvhw+'\n'+'}'
