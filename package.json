@@ -1,5 +1,5 @@
 {
-  "name": "@ha/px2vwh-loader",
+  "name": "px2vwh-loader",
   "version": "1.0.0",
   "description": "A tool for change px to vw/vh with media",
   "main": "index.js",

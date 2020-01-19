@@ -10,13 +10,13 @@ The purpose of this is to try to keep the page as original as possible when the 
 #### install:
 
 ```
-npm i @ha/px2vwh-loader
+npm i px2vwh-loader
 ```
 
 or
 
 ```
-yarn add @ha/px2vwh-loader
+yarn add px2vwh-loader
 ```
 
 #### config:
@@ -25,7 +25,7 @@ webpack:
 module: {
   rules: [{
     test: /\.(sc|sa)ss$/,
-    loader:'@ha/px2vwh-loader',
+    loader:'px2vwh-loader',
       query:{
         uiHeight:737,
         uiWidth:1283,
@@ -41,8 +41,8 @@ webpack-chain:
 config.module
       .rule('px2vwh')
       .test( /\.(sc|sa)ss$/)
-      .use('@ha/px2vwh-loader')
-      .loader('@ha/px2vwh-loader')
+      .use('px2vwh-loader')
+      .loader('px2vwh-loader')
       .options({
         uiHeight:737,
         uiWidth:1283,
