@@ -1,6 +1,6 @@
 {
   "name": "px2vwh-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tool for change px to vw/vh with media",
   "main": "index.js",
   "scripts": {
