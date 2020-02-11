@@ -5,8 +5,8 @@ module.exports = function (source) {
     if (!this.cacheable || !options) {
         return source;
     }
-    const uiHeight = options.uiHeight ||737
-    const uiWidth = options.uiWidth || 1283
+    const uiHeight = options.uiHeight ||736
+    const uiWidth = options.uiWidth || 1282
     const decimal = options.decimal || 3
     // this.cacheable();
     let sources = source
